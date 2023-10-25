@@ -81,7 +81,7 @@ const formatTime = time => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'hsl(181, 33%, 30%)',
+    backgroundColor: 'hsl(31, 78%, 38%)',
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
@@ -89,10 +89,10 @@ const styles = StyleSheet.create({
   timerContainer: {
     width: 250,
     height: 250,
-    backgroundColor: 'hsl(181, 23%, 88%)',
+    backgroundColor: 'hsl(31, 20%, 90%)',
     borderWidth: 4,
-    borderColor: 'hsl(192, 100%, 25%)',
-    shadowColor: 'black',
+    borderColor: 'hsl(31, 99%, 35%)',
+    shadowColor: 'hsl(31, 8%, 96%)',
     borderRadius: 1500,
     shadowRadius: 1000,
     padding: 10,
@@ -101,7 +101,8 @@ const styles = StyleSheet.create({
   },
   timer: {
     fontSize: 60,
-    color: 'hsl(181, 33%, 30%)',
+    color: 'hsl(31, 68%, 32%)',
+    fontWeight: 'bold'
   },
   controls: {
     width: 300,
@@ -116,25 +117,30 @@ const styles = StyleSheet.create({
   hello: {
     marginBottom: 50,
     justifyContent: 'center',
-    fontSize: 50,
+    fontSize: 30,
+    color: 'white',
+    
   },
   button: {
-    width: 100,
+    width: 120,
     height: 40,
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 10,
+    marginHorizontal: -30,
+    
   },
   
   startButton: {
-    backgroundColor: 'hsl(181, 23%, 88%)',
+    backgroundColor: 'hsl(31, 20%, 90%)',
     fontSize: 220,
+    fontWeight: 'bold',
   },
   pauseButton: {
-    backgroundColor: 'hsl(181, 23%, 88%)',
+    backgroundColor: 'hsl(31, 20%, 90%)',
   },
   resetButton: {
-    backgroundColor: 'hsl(181, 23%, 88%)',
+    backgroundColor: 'hsl(31, 20%, 90%)',
   },
   
 });
